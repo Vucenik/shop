@@ -1,0 +1,54 @@
+<table>
+    <caption> Pregled košarice</caption>
+    <thead>
+        
+        <th>
+            Opis
+        </th>
+        <th>
+            Cijena
+        </th>
+        <th>
+            Količina
+        </th>
+        <th>
+            Ukupno
+        </th>
+        <th>
+            Briši
+        </th>
+    </thead>
+    <tbody id="kontejner_tablica">
+        <tr>
+            <td>
+            Govedić
+        </td>
+        <td>
+            6,74&nbsp;€
+        </td>
+        <td>
+           <input type="number" name="kolicina" id="kolicina_input" min="1" max="9999">
+        </td>
+        <td>
+            20,22&nbsp;€
+           </td>
+           <td>
+          <button>Briši</button>
+           </td>
+        </td>
+        </tr>
+
+
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Ukupno</td>
+            <td id="tablica_ukupno" colspan="2">   20,22&nbsp;€</td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <button id="tablica_naruci" >Naruči</button>
+            </td>
+        </tr>
+    </tfoot>
+</table>
